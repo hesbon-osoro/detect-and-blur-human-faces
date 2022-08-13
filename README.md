@@ -2,7 +2,12 @@
 
 ## Demo
 
-For demo, watch out this [`Video`](/assets/detect-and-blur-human-faces.mp4)
+For demo, watch out this [`Video`](https://youtu.be/yGSBABPdlUE)
+
+Click on the image below ...
+
+[![Watch the video](/assets/detect-blur-face.png)](https://youtu.be/yGSBABPdlUE)
+
 
 <!-- ![](assets/detect-and-blur-human-faces.mp4) -->
 
