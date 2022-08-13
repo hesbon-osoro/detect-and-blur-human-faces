@@ -26,8 +26,9 @@ app.post('/upload', (req, res) => {
     if (!req.files || Object.keys(req.files).length === 0) {
       return res.status(400).send('No files were uploaded.');
     }
-    let image = req.files.image; // If you want to save the image
-    // image.mv(__dirname + '/uploads/' + image.name);
+    let image = req.files.image;
+    // If you want to save the image
+    image.mv(__dirname + '/uploads/' + image.name);
     const form = new FormData();
     form.append('file', image.data, image.name);
     form.append('key', process.env.PIXLAB_KEY);
