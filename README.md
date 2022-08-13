@@ -2,6 +2,8 @@
 
 ## Demo
 
+For demo, watch out this [`Video`](/assets/detect-and-blur-human-faces.mp4)
+
 <!-- ![](assets/detect-and-blur-human-faces.mp4) -->
 
 <video width="400" height="300" controls>
@@ -9,8 +11,12 @@
 </video>
 
 ## Technologies
-- React
+- Node
 - PixLab
+- HTML
+- CSS
+
+Check the [`backend`](/backend/) and [`frontend`](/frontend/) code to run the app. 
 
 ## Intro
 Content moderation is very necessary for a website. If you are developing a website where users can upload images, then you have to be extra cautious. You can’t trust your users. If they upload some objectionable content, then sometimes you as a creator of the site, become the victim of it.
@@ -21,3 +27,4 @@ But for a small team and individual developer, manual content moderation is not 
 
 Building AI-based automation is not very easy. You have to hire a talented developer and should have a lot of data to train your AI model. But we can take a shortcut here. There are much software as a service (SaaS) platforms present in the market, which can help us in this aspect.
 [`Pixlab`](https://pixlab.io/) is a SaaS platform, which can give a user-friendly application programming interface (API) to their state-of-the-art AI models. You can easily integrate those services into your app. Check out this [`link`](https://pixlab.io/cmdls) for more information.
+
