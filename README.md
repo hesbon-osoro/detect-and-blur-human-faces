@@ -11,9 +11,9 @@ Click on the image below ...
 
 <!-- ![](assets/detect-and-blur-human-faces.mp4) -->
 
-<video width="400" height="300" controls>
+<!-- <video width="400" height="300" controls>
   <source src="assets/detect-and-blur-human-faces.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## Technologies
 - Node
