@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Inter';
+  text-align: center;
+  margin: 150px 0px;
+}
+
+#proxyinput {
+  width: 500px;
+  height: 280px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-family: 'Inter';
+  position: absolute;
+}
+
+img {
+  width: 500px;
+  height: 280px;
+  object-fit: contain;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.output {
+  margin-left: 50px;
+  width: 500px;
+  height: 280px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-process {
+  background-color: rgb(31, 166, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 50px;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-size: 1rem;
+}
+
+#btn-process:active {
+  background-color: rgb(0, 153, 255);
+}
