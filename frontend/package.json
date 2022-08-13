@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
